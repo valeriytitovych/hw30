@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/icons/style.css">
+</head>
+
+<body>
+    <section class="page">
+        <main class="wrapper">
+            <section class="navbar-section">
+                <nav class="navbar-section-nav">
+                    <ul class="navbar-section-nav-list">
+                        <li class="navbar-section-nav-list__item navbar-section-nav-list__item-disabled navbar-section-nav-list__item-active"
+                            data-tab="1">
+                            <i class="icon-tooltip navbar-section-nav-list__item-icon"></i>
+                            <p class="navbar-section-nav-list__item-text">
+                                INFORMATION
+                            </p>
+                        </li>
+                        <li class="navbar-section-nav-list__item navbar-section-nav-list__item-disabled" data-tab="2">
+                            <i class="icon-card navbar-section-nav-list__item-icon"></i>
+                            <p class="navbar-section-nav-list__item-text">
+                                RATINGS INFO
+                            </p>
+                        </li>
+                        <li class="navbar-section-nav-list__item navbar-section-nav-list__item-disabled" data-tab="3">
+                            <i class="icon-basket navbar-section-nav-list__item-icon"></i>
+                            <p class="navbar-section-nav-list__item-text">
+                                WHERE TO BUY
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="container">
+                <section class="content-section tab active" data-tab="1">
+                    <div class="content-section-poster">
+                        <div class="content-section-poster-img">
+
+                        </div>
+                        <div class="content-section-poster-rating">
+                            <svg display="none">
+                                <symbol id="star1" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star1"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star2" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star2"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star3" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star3"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star4" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star4"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star5" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon content-section-poster-rating__icon-grey">
+                                <use xlink:href="#star5"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="content-section-title">
+                        <div class="content-section-title-title">
+                            <p class="content-section-title-title__title">FarCry 4</p>
+                            <p class="content-section-title-title__subtitle">First Released Nov 17, 2014</p>
+                        </div>
+                        <div class="content-section-title-rate">
+                            <div class="content-section-title-rate-value">
+                                <p class="content-section-title-rate-value__item">7.8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-section-info">
+                        <p class="content-section-info__text">In Far Cry 4, players find themselves in Kyrat, a
+                            breathtaking,
+                            perilous and wild region of the Hima
+                            layas struggling under the regime of a despotic self-appointed king.</p>
+                    </div>
+                    <div class="content-section-shop">
+                        <div class="content-section-shop-price">
+                            <p class="content-section-shop-price__discount">20% OFF!</p>
+                            <p class="content-section-shop-price__price">$59.96</p>
+                        </div>
+                        <div class="content-section-shop-btn">
+                            <button type="button" class="content-section-shop-btn__item">
+                                BUY IT NOW
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="rates-section tab" data-tab="2">
+                    <div class="content-section-poster">
+                        <div class="content-section-poster-img">
+
+                        </div>
+                        <div class="content-section-poster-rating">
+                            <svg display="none">
+                                <symbol id="star1" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star1"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star2" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star2"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star3" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star3"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star4" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star4"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star5" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon content-section-poster-rating__icon-grey">
+                                <use xlink:href="#star5"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="content-section-title">
+                        <div class="content-section-title-title">
+                            <p class="content-section-title-title__title">FarCry 4</p>
+                            <p class="content-section-title-title__subtitle">First Released Nov 17, 2014</p>
+                        </div>
+                        <div class="content-section-title-rate">
+                            <div class="content-section-title-rate-value">
+                                <p class="content-section-title-rate-value__item">7.8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-section-info">
+                        <p class="content-section-info__text">Just another text to show this jquery-tabs code works.
+                            Nothing specia, really. If you need game info - click previous tab))</p>
+                    </div>
+                    <div class="content-section-shop">
+                        <div class="content-section-shop-price">
+                            <p class="content-section-shop-price__discount">20% OFF!</p>
+                            <p class="content-section-shop-price__price">$59.96</p>
+                        </div>
+                        <div class="content-section-shop-btn">
+                            <button type="button" class="content-section-shop-btn__item">
+                                BUY IT NOW
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="shop-section tab" data-tab="3">
+                    <div class="content-section-poster">
+                        <div class="content-section-poster-img">
+
+                        </div>
+                        <div class="content-section-poster-rating">
+                            <svg display="none">
+                                <symbol id="star1" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star1"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star2" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star2"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star3" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star3"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star4" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon">
+                                <use xlink:href="#star4"></use>
+                            </svg>
+                            <svg display="none">
+                                <symbol id="star5" viewBox="0 0 19 18">
+                                    <g>
+                                        <path
+                                            d="M5.33 18.3C7.06 17.49 10.05 16.07 10.05 16.07C10.05 16.07 12.99 17.45 14.87 18.33C14.26 18.04 16.43 19.57 16.23 17.45C16.04 15.41 15.73 12.14 15.73 12.14C15.73 12.14 17.88 9.75 19.22 8.26C18.66 8.88 20.76 7.18 18.8 6.81C16.83 6.44 13.28 6.18 13.28 6.18C13.28 6.18 11.87 2.92 10.83 1.12C11.32 1.96 10.28 -0.73 9.25 1.08C8.21 2.89 6.7 6.19 6.7 6.19C6.7 6.19 3.27 6.46 1.29 6.84C2.06 6.69 -0.52 6.76 0.79 8.21C2.13 9.7 4.36 12.17 4.36 12.17C4.36 12.17 4.06 15.45 3.88 17.49C3.93 16.96 3.2 19.31 5.33 18.3Z" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <svg class="content-section-poster-rating__icon content-section-poster-rating__icon-grey">
+                                <use xlink:href="#star5"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="content-section-title">
+                        <div class="content-section-title-title">
+                            <p class="content-section-title-title__title">FarCry 4</p>
+                            <p class="content-section-title-title__subtitle">First Released Nov 17, 2014</p>
+                        </div>
+                        <div class="content-section-title-rate">
+                            <div class="content-section-title-rate-value">
+                                <p class="content-section-title-rate-value__item">7.8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-section-info">
+                        <p class="content-section-info__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Consectetur eius repellat, quisquam ea veritatis aut qui? Dolor numquam quo tempora quia
+                            rerum vero excepturi soluta ab, laborum cumque veniam unde.</p>
+                    </div>
+                    <div class="content-section-shop">
+                        <div class="content-section-shop-price">
+                            <p class="content-section-shop-price__discount">20% OFF!</p>
+                            <p class="content-section-shop-price__price">$59.96</p>
+                        </div>
+                        <div class="content-section-shop-btn">
+                            <button type="button" class="content-section-shop-btn__item">
+                                BUY IT NOW
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
